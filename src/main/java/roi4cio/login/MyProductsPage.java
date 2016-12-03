@@ -40,4 +40,9 @@ public class MyProductsPage {
 	public List<String> productNameList() {
 		return prodNames.stream().map(WebElement::getText).collect(Collectors.toList());
 	}
+
+	public List<String> productTable() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

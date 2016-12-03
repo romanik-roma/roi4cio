@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import roi4cio.ProductModel;
+
 public class AddProductPage {
 	private WebDriver driver;
 
@@ -138,5 +140,10 @@ public class AddProductPage {
 
 	public boolean englishPageAddProduct() {
 		return englishAddProductPage.isDisplayed();
+	}
+
+	public void addProduct(ProductModel testProductData) {
+		// TODO Auto-generated method stub
+		
 	}
 }
